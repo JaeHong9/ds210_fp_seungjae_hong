@@ -1,0 +1,11 @@
+[package]
+name = "epl_betweenness_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+csv = "1.1"
+petgraph = "0.6"
+tempfile = "3.4"
